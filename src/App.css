@@ -303,6 +303,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Skills Css ************/
 .skill {
   padding: 40px 0 10px 0;
+  position: relative;
+  overflow: hidden;
+    
+    
+  
+  
 }
 
 .skill-bx {
@@ -401,7 +407,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 100px 0;
+    padding: 40px 0 100px 0; /* top right bottom left */
+
   position: relative;
   background-color: #121212;
   background-image: linear-gradient(90.21deg, rgba(170, 54, 124, 0.1) -5.91%, rgba(74, 47, 189, 0.1) 111.58%);
@@ -508,6 +515,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -1;
   opacity: 0.3;
 }
+
+.background-image-left {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+  pointer-events: none;
+}
+
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
