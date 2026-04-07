@@ -433,6 +433,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
   padding: 0 20px;
+  width: 100%;
+}
+
+.project-card-wrapper {
+  width: 100%;
 }
 .project-card-horizontal {
   background: rgba(255, 255, 255, 0.05);

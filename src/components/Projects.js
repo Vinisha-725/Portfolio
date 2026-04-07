@@ -176,7 +176,9 @@ export const Projects = () => {
                   </p>
                   <div className="projects-container">
                     {projects.map((project, index) => (
-                      <ProjectCard key={index} project={project} />
+                      <div key={index} className="project-card-wrapper">
+                        <ProjectCard project={project} />
+                      </div>
                     ))}
                   </div>
                 </div>
