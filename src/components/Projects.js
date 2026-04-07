@@ -8,6 +8,9 @@ import resumeImage from "../assets/img/projects/Resume.jpg";
 import bookImage from "../assets/img/projects/Book.jpg";
 import infixImage from "../assets/img/projects/Infix.jpg";
 import imperial from "../assets/img/projects/imperial.jpg";
+import sarImage from "../assets/img/projects/SAR.png";
+import wordLegoImage from "../assets/img/projects/WordLego.png";
+import geospatialImage from "../assets/img/projects/Geospatial.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -111,6 +114,46 @@ export const Projects = () => {
       "JWT Authentication"
     ],
     githubUrl: "https://github.com/Vinisha-Sahoo/Imperialair-Fullstack"
+  },
+  {
+    title: "SAR Narrative Generator with Audit Trail",
+    shortDescription: "AI-driven Suspicious Activity Report automation platform",
+    imgUrl: sarImage,
+    objective: "Developed an AI-driven Suspicious Activity Report (SAR) automation platform using Python and Streamlit, integrating ML-based risk analysis, automated report generation, and database-backed case management.",
+    technologies: [
+      "Python",
+      "Machine Learning",
+      "SQLite",
+      "JSON",
+      "HTML/CSS",
+      "React"
+    ],
+    githubUrl: "https://github.com/Vinisha-725/SAR--Suspicious-Activity-Report"
+  },
+  {
+    title: "Word Lego",
+    shortDescription: "Thematic word-chain game with AI validation",
+    imgUrl: wordLegoImage,
+    objective: "Built a thematic word-chain game featuring a real-time AI validator that enforces category constraints and 'last-letter' mechanics to ensure competitive gameplay integrity.",
+    technologies: [
+      "Python",
+      "React",
+      "FastAPI"
+    ],
+    githubUrl: "https://github.com/Vinisha-725/WordLegoGame"
+  },
+  {
+    title: "Geospatial Road Health Registry",
+    shortDescription: "Infrastructure monitoring platform with ML analysis",
+    imgUrl: geospatialImage,
+    objective: "Developed a geospatial monitoring platform for infrastructure management that integrates machine learning image analysis and 3D visualization to track and analyze road surface conditions.",
+    technologies: [
+      "YoloV8",
+      "React",
+      "TypeScript",
+      "Docker"
+    ],
+    githubUrl: "https://github.com/MRvandals4vage/GeoSpatial-Road-Health-Registry"
   }
 ];
 
